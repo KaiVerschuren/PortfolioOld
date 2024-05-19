@@ -30,6 +30,11 @@
   /* border: 1px red solid; */
 }
 
+.emoji {
+  opacity: 1;
+  color: white;
+}
+
 .section {
     margin-top: 5rem;
 }

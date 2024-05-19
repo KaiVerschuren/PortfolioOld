@@ -1,8 +1,8 @@
 :root {
   --text: #f1f5f9;
-  --text-soft: rgba(241, 245, 249, 0.6);
+  --text-soft: rgba(241, 245, 249, 0.4);
   --text-reverse: #020517;
-  --text-reverse-soft: rgba(2, 5, 23, 0.6);
+  --text-reverse-soft: rgba(2, 5, 23, 0.4);
   --background: #020517;
   --background-reverse: #E8EBFD;
   --primary: #fb7185;
