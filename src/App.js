@@ -14,16 +14,20 @@ function App() {
 function Header() {
   return (
     <header className="nav-header container">
-      <div className="title">Kai Verschuren</div>
-      <nav className="nav">
-        <ul className="no-list-style">
-          <li className="link-1">Link 1</li>
-          <li className="link-2">Link 2</li>
-          <li className="link-3">Link 3</li>
-        </ul>
-      </nav>
-      <div className="contact">
-        <button className="btn">Contact</button>
+      <div className="nav-left">
+        <div className="title"><h1>Kai Verschuren</h1></div>
+      </div>
+      <div className="nav-right">
+        <nav className="nav">
+          <ul className="no-list-style nav-list">
+            <li className="link-1"><a href="">About</a></li>
+            <li className="link-2"><a href="">Work | School</a></li>
+            <li className="link-3"><a href="">Resume</a></li>
+          </ul>
+        </nav>
+        <div className="nav-contact">
+          <button className="btn nav-button">Contact</button>
+        </div>
       </div>
     </header>
   );
