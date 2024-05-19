@@ -6,7 +6,16 @@ import "./style/utils.css";
 function App() {
   return (
     <div>
-      <Header />
+      <section>
+        <Header />
+      </section>
+      <section className="section">
+        <Hero />
+      </section>
+      <section>
+
+      </section>
+      
     </div>
   );
 }
@@ -30,6 +39,28 @@ function Header() {
         </div>
       </div>
     </header>
+  );
+}
+
+function Hero() {
+  return (
+    <div className="hero">
+      <div className="hero-picture">
+        <img src="" alt="" />
+      </div>
+      <div className="hero-hello">
+        <h2>Hi, i'm Kai</h2>
+        <h1>FRONT-END WEB DEVELOPER</h1>
+      </div>
+      <div className="hero-subsection">
+        <p>
+          A passionate <strong>Frontend / Fullstack</strong> web developer and <strong>UI/UX</strong> enthusiast specialized in building stunning interactive websites/applications.
+        </p>
+      </div>
+      <div className="hero-reach-out">
+        <button className="btn">Reach Out</button>
+      </div>
+    </div>
   );
 }
 
