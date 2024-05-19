@@ -6,6 +6,7 @@ import "./style/utils.css";
 
 import Header from './components/header.js';
 import Hero from './components/hero.js';
+import About from './components/about.js';
 
 function App() {
   return (
@@ -16,10 +17,9 @@ function App() {
       <section className="container">
         <Hero />
       </section>
-      <section>
-
+      <section className="container section">
+        <About />
       </section>
-      
     </div>
   );
 }
