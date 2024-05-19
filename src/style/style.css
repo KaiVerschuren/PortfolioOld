@@ -1,0 +1,47 @@
+:root {
+  --text: #f1f5f9;
+  --background: #020517;
+  --primary: #fb7185;
+  --secondary: #0f1729;
+  --accent: #818cf8;
+
+  /* primary 	rgb(251, 113, 133) */
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: rubik, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+}
