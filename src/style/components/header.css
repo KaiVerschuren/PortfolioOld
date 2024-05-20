@@ -5,13 +5,17 @@
 }
 
 .title {
-  font-size: .35rem;
+  font-size: .6rem;
+}
+
+.header-lastname {
+  display: none;
 }
 
 .nav-list {
   display: flex;
   gap: 1rem;
-  font-size: .85rem;
+  font-size: 1rem;
 }
 
 .nav-list > li > a {
@@ -31,15 +35,12 @@
 }
 
 .nav-contact {
-  font-size: .7rem;
+  font-size: .8rem;
   display: none;
 }
 
 /* xs */
 @media (min-width: 475px) {
-  .title {
-    font-size: .5rem;
-  }
 }
 
 /* sm */
@@ -51,11 +52,10 @@
 
   .nav-list {
     gap: 2rem;
-    font-size: 1rem;
   }
 
-  .title {
-    font-size: .6rem;
+  .header-lastname {
+    display: inline;
   }
 }
 

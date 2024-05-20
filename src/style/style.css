@@ -23,6 +23,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: rubik, sans-serif;
   background-color: var(--background);
   color: var(--text);
@@ -53,4 +54,5 @@ a {
 
 strong {
   color: var(--accent);
+  font-weight: 700;
 }
